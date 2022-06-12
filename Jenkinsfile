@@ -12,6 +12,7 @@ node {
          * docker build on the command line */
 
         app = docker.build("20mkumar/edureka")
+        Docker build -t 20mkumar:edureka -f Dockerfile
     }
 
     stage('Test image') {
