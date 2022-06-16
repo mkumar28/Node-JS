@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("edureka/edureka")
+        app = docker.build("edureka1/edureka")
         //Docker build -t 20mkumar:edureka -f Dockerfile
     }
 
